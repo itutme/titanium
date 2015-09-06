@@ -1,5 +1,5 @@
 <Alloy>
-<Window class="container">
+<Window class="container" layout="vertical">
 <Label id="label" onClick="doClick" color="#212121">“The secret to getting ahead is getting started.” </Label>
 <Label color="#656565">- Mark Twain</Label>
     </Window>
