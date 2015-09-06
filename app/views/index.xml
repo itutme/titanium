@@ -1,5 +1,5 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+<Window class="container">
+    <Label id="label" onClick="doClick">“The secret to getting ahead is getting started.” - Mark Twain</Label>
+</Window>
 </Alloy>
