@@ -9,5 +9,16 @@
                 <Button top="20" onClick="doClick">Update</Button>
         </View>
         </View>
+        <View layout="vertical" top="10" backgroundColor="#FFFFFF" height="225" width="95%" borderRadius="5">
+            <View layout="vertical" top="10" left="10" right="10" bottom="10" onDblclick="edit">
+                <Label id="projectTitle2" onClick="doClick" color="#212121" left="0">Event Magement webapp</Label>
+                <Label color="#656565" id="projectDeadline2" left="0">12/11/2015</Label>
+                <Label color="#656565" id="projectTasks2" left="0">Tasks</Label>
+                <TextField id="title2" hintText="Project Title" top="20" left="0" width="100%" />
+                <TextField id="deadline2" hintText="Project Deadline" top="5" left="0" width="100%" />
+                <TextField id="tasks2" hintText="Project Tasks" top="5" left="0" width="100%" />
+                <Button top="20" onClick="update">Update</Button>
+        </View>
+        </View>
     </Window>
     </Alloy>
