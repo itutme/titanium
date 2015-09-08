@@ -1,5 +1,13 @@
 <Alloy>
     <Window>
+    	<Toolbar platform="ios" class="top-20" borderTop="true" borderBottom="true">
+            <Items>
+                <FlexSpace/>
+                <Label id="windowTitle">Project Management</Label>
+                <FlexSpace/>
+            </Items>
+        </Toolbar>
+        
         <View class="container top-20">
             <View class="inner-container" onDblclick="edit">
                 <Label id="projectTitle" class="left-0">Event Magement webapp</Label>
