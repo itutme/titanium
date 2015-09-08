@@ -1,6 +1,6 @@
 <Alloy>
     <Window class="container" layout="vertical" backgroundColor="#EEEEEE">
-        <View layout="vertical" top="20" backgroundColor="#FFFFFF" height="175" width="95%" borderRadius="5">
+        <View layout="vertical" top="20" backgroundColor="#FFFFFF" height="250" width="95%" borderRadius="5">
             <View layout="vertical" top="10" left="10" right="10" bottom="10">
                 <Label id="projectTitle" color="#212121" left="0">Event Magement webapp</Label>
                 <Label color="#656565" id="projectDeadline" left="0">12/11/2015</Label>
