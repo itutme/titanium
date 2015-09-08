@@ -1,15 +1,15 @@
 <Alloy>
-<Window>
-    <View class="container top-20">
-        <View class="inner-container" onDblclick="edit">
-            <Label id="projectTitle2" class="left-0">Event Magement webapp</Label>
-            <Label id="projectDeadline2" class="left-0 color-secondary">12/11/2015</Label>
-            <Label id="projectTasks2" class="left-0 color-secondary">Tasks</Label>
-            <TextField id="title2" hintText="Project Title" class="top-20 left-0 width-fill" />
-            <TextField id="deadline2" hintText="Project Deadline" class="top-5 left-0 width-fill" />
-            <TextField id="tasks2" hintText="Project Tasks" class="top-5 left-0 width-fill" />
-            <Button class="top-20" onClick="update">Update</Button>
-    </View>
-    </View>
-</Window>
-</Alloy>
+    <Window>
+        <View class="container top-20">
+            <View class="inner-container" onDblclick="edit">
+                <Label id="projectTitle" class="left-0">Event Magement webapp</Label>
+                <Label id="projectDeadline" class="left-0 color-secondary">12/11/2015</Label>
+                <Label id="projectTasks" class="left-0 color-secondary">Tasks</Label>
+                <TextField id="projectTitleInput" hintText="Project Title" class="top-10 left-0" />
+                <TextField id="projectDeadlineInput" hintText="Project Deadline" class="left-0" />
+                <TextField id="projectTasksInput" hintText="Project Tasks" class="left-0" />
+                <Button class="top-10" onClick="update">Update</Button>
+        </View>
+        </View>
+    </Window>
+    </Alloy>

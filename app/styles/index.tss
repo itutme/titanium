@@ -1,17 +1,15 @@
 "Window": {
-	layout: "vertical",
-	backgroundColor: "#EEEEEE"
+layout: "vertical",
+backgroundColor: "#EEEEEE"
 }
 
 ".container": {
-	layout: "vertical",
-	top: 10,
-	backgroundColor:"white",
-	height: Ti.UI.SIZE,
-	width: "95%",
+    layout: "vertical",
+    top: 10,
+    backgroundColor:"white",
+    height: Ti.UI.SIZE,
+    width: "95%",
     borderRadius: 5,
-    borderWidth: 0.5,
-    borderColor: "#D9D9D9",
 }
 
 ".inner-container": {
@@ -24,9 +22,15 @@ layout: "vertical",
         width: Ti.UI.FILL,
     }
 "Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#212121"
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#212121"
+}
+
+"TextField": {
+	width: Ti.UI.FILL,
+	 color: "#212121",
+	 hintTextColor: "#D9D9D9",
 }
 
 ".color-primary":{
@@ -34,61 +38,25 @@ color: "#212121"
 }
 
 ".color-secondary":{
-	color: "#656565"
+color: "#656565"
 }
 
 ".color-light":{
-	color: "#B2B2B2",
+color: "#B2B2B2",
 }
 
 ".color-off":{
-	color: "#D9D9D9",
-}
-
-".top-0": {
-    top: 0,
-}
-
-".left-0": {
-    left: 0,
-}
-
-".bottom-0": {
-    bottom: 0,
-}
-
-".right-0": {
-    right: 0,
-}
-
-".top-5": {
-    top: 5,
+color: "#D9D9D9",
 }
 
 ".top-20": {
     top: 20,
 }
 
-".width-fill": {
-    width: Ti.UI.FILL,
+".top-10": {
+    top: 10,
 }
 
-".height-fill": {
-    height: Ti.UI.FILL,
-}
-
-".height-size": {
-    height: Ti.UI.SIZE,
-}
-
-".width-size": {
-    width: Ti.UI.SIZE,
-}
-
-".lo-vertical":{
-    layout: "vertical",
-}
-
-".lo-horizontal":{
-    layout: "horizontal",
+".left-0": {
+    left: 0,
 }
