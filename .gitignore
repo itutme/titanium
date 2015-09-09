@@ -44,6 +44,10 @@ Icon
 
 # Pain Diary
 dist/
+docs/
+roadmap.md
+test*
+.gitignore
 build/
 build.log
 ignore*
