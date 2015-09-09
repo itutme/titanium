@@ -41,7 +41,10 @@ Icon
 .Spotlight-V100
 .Trashes
 *_sqlite.db
-
+docs/
+.gitignore
+roadmap.md
+tes*
 # Pain Diary
 dist/
 build/
