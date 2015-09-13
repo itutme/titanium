@@ -8,26 +8,27 @@
         </Items>
     </Toolbar>
     
-    <TableView id="table">
-    <TableViewRow>
+    <TableView id="table" filterAttribute="filter">
+    	<SearchBar />
+    <TableViewRow filter="Event Management webapp">
         <View class="container">
         <View class="inner-container">
-            <Label id="projectTitle" class="left-0">Event Magement webapp</Label>
+            <Label id="projectTitle" class="left-0">Event Management webapp</Label>
             <Label id="projectDeadline" class="left-0 color-secondary">12/11/2015</Label>
             <Label id="projectTasks" class="left-0 color-secondary">Wireframing, Prototyping, Scaffolding</Label>
     </View>
     </View>
     </TableViewRow>
-    <TableViewRow>
+    <TableViewRow filter="House Management mobile app">
         <View class="container">
         <View class="inner-container">
-            <Label id="projectTitle" class="left-0">House Magement mobile app</Label>
+            <Label id="projectTitle" class="left-0">House Management mobile app</Label>
             <Label id="projectDeadline" class="left-0 color-secondary">12/26/2015</Label>
             <Label id="projectTasks" class="left-0 color-secondary">Wireframing, Prototyping</Label>
     </View>
     </View>
     </TableViewRow>
-    <TableViewRow>
+    <TableViewRow filter="Pet care wordpress blog">
         <View class="container">
         <View class="inner-container">
             <Label id="projectTitle" class="left-0">Pet care wordpress blog</Label>
@@ -36,7 +37,7 @@
     </View>
     </View>
     </TableViewRow>
-    <TableViewRow>
+    <TableViewRow filter="Pet care online store">
         <View class="container">
         <View class="inner-container">
             <Label id="projectTitle" class="left-0">Pet care online store</Label>
@@ -45,7 +46,7 @@
     </View>
     </View>
     </TableViewRow>
-    <TableViewRow>
+    <TableViewRow filter="Old Fox Bar website">
         <View class="container">
         <View class="inner-container">
             <Label id="projectTitle" class="left-0">Old Fox Bar website</Label>
