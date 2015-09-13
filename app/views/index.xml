@@ -12,7 +12,7 @@
     <TableViewRow>
         <View class="container">
         <View class="inner-container">
-            <Label id="projectTitle" class="left-0">Event Magement webapp</Label>
+            <Label id="projectTitle" class="left-0">Event Management webapp</Label>
             <Label id="projectDeadline" class="left-0 color-secondary">12/11/2015</Label>
             <Label id="projectTasks" class="left-0 color-secondary">Wireframing, Prototyping, Scaffolding</Label>
     </View>
@@ -21,7 +21,7 @@
     <TableViewRow>
         <View class="container">
         <View class="inner-container">
-            <Label id="projectTitle" class="left-0">House Magement mobile app</Label>
+            <Label id="projectTitle" class="left-0">House Management mobile app</Label>
             <Label id="projectDeadline" class="left-0 color-secondary">12/26/2015</Label>
             <Label id="projectTasks" class="left-0 color-secondary">Wireframing, Prototyping</Label>
     </View>
