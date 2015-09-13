@@ -3,6 +3,11 @@ layout: "vertical",
 backgroundColor: "#EEEEEE"
 }
 
+"TableView": {
+backgroundColor: "transparent",
+separatorStyle: "none"
+}
+
 ".container": {
     layout: "vertical",
     top: 10,
@@ -28,9 +33,9 @@ layout: "vertical",
 }
 
 "TextField": {
-	width: Ti.UI.FILL,
-	 color: "#212121",
-	 hintTextColor: "#D9D9D9",
+    width: Ti.UI.FILL,
+     color: "#212121",
+     hintTextColor: "#D9D9D9",
 }
 
 ".color-primary":{
