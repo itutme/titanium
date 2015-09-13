@@ -2,7 +2,7 @@
 <Window>
     <View class="container top-20">
         <View class="inner-container" onDblclick="edit">
-            <Label id="projectTitle" class="left-0">Event Magement webapp</Label>
+            <Label id="projectTitle" class="left-0">Event Management webapp</Label>
             <Label id="projectDeadline" class="left-0 color-secondary">12/11/2015</Label>
             <Label id="projectTasks" class="left-0 color-secondary">Tasks</Label>
             <TextField id="projectTitleInput" hintText="Project Title" class="top-10 left-0" />
