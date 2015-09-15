@@ -14,7 +14,10 @@
         <View class="container">
         <View class="inner-container">
             <Label id="projectTitle" class="left-0">Event Management webapp</Label>
+            <View class="lo-horizontal height-size width-size">
+            <Label class="mi">access_time</Label>
             <Label id="projectDeadline" class="left-0 color-secondary">12/11/2015</Label>
+            </View>
             <Label id="projectTasks" class="left-0 color-secondary">Wireframing, Prototyping, Scaffolding</Label>
     </View>
     </View>
