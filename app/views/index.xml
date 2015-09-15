@@ -17,47 +17,11 @@
             <Label id="projectTasks" class="left-0 color-secondary content top-5">A cross-platform event management app with tabbed interface.</Label>
             <Label id="projectTasks" class="left-0 color-primary content top-5">Lorgh Zulor, Kian Boral, Nona Hurgoh</Label>
 	            <View class="height-size width-size lo-horizontal right-0 top-10">
-	           	<Label class="info width-size color-light">☰</Label>
+	           	<Label class="mi info width-size color-light">format_list_bulleted</Label>
 	           	<Label id="taskCount" class="info width-size color-highlight">7</Label>
-	           	<Label class="info width-size color-light left-10">◴</Label>
+	           	<Label class="mi width-size color-light left-10">access_time</Label>
 	            <Label id="projectDeadline" class="width-size info color-highlight">12/11/2015</Label>
             </View>
-    </View>
-    </View>
-    </TableViewRow>
-    <TableViewRow filter="House Management mobile app">
-        <View class="container">
-        <View class="inner-container">
-            <Label id="projectTitle" class="left-0">House Management mobile app</Label>
-            <Label id="projectDeadline" class="left-0 color-secondary">12/26/2015</Label>
-            <Label id="projectTasks" class="left-0 color-secondary">Wireframing, Prototyping</Label>
-    </View>
-    </View>
-    </TableViewRow>
-    <TableViewRow filter="Pet care wordpress blog">
-        <View class="container">
-        <View class="inner-container">
-            <Label id="projectTitle" class="left-0">Pet care wordpress blog</Label>
-            <Label id="projectDeadline" class="left-0 color-secondary">1/12/2016</Label>
-            <Label id="projectTasks" class="left-0 color-secondary">Domain registration, Template design</Label>
-    </View>
-    </View>
-    </TableViewRow>
-    <TableViewRow filter="Pet care online store">
-        <View class="container">
-        <View class="inner-container">
-            <Label id="projectTitle" class="left-0">Pet care online store</Label>
-            <Label id="projectDeadline" class="left-0 color-secondary">5/11/2016</Label>
-            <Label id="projectTasks" class="left-0 color-secondary">Template design, Shopping cart, Payment gateway</Label>
-    </View>
-    </View>
-    </TableViewRow>
-    <TableViewRow filter="Old Fox Bar website">
-        <View class="container">
-        <View class="inner-container">
-            <Label id="projectTitle" class="left-0">Old Fox Bar website</Label>
-            <Label id="projectDeadline" class="left-0 color-secondary">5/18/2016</Label>
-            <Label id="projectTasks" class="left-0 color-secondary">Template design</Label>
     </View>
     </View>
     </TableViewRow>

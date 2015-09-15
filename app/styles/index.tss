@@ -74,27 +74,45 @@ color: "#D9D9D9",
     hintTextColor: "#D9D9D9",
 }
 
+".mi": {
+	font: {
+	  fontFamily: "Material Icons"
+	}
+}
+
+".lo-horizontal":{
+	layout: "horizontal"
+}
+
+".height-size":{
+	height: Ti.UI.SIZE
+}
+
+".width-fill":{
+	width: Ti.UI.FILL
+}
+
 ".color-highlight":{
-	color: "#57AA68"
+    color: "#57AA68"
 }
 
 ".info": {
-	font: {
-		fontSize: 10
-		}
+    font: {
+        fontSize: 12
+        }
 }
 
 ".title": {
-	font: {
-		fontSize: 18,
-		fontWeight: "bold"
-		}
+    font: {
+        fontSize: 18,
+        fontWeight: "bold"
+        }
 }
 
 ".content": {
-	font: {
-		fontSize: 14
-		}
+    font: {
+        fontSize: 14
+        }
 }
 
 ".left-0": {
@@ -102,7 +120,7 @@ color: "#D9D9D9",
 }
 
 ".left-10":{
-	left: 10
+    left: 10
 }
 
 ".right-0": {
@@ -119,8 +137,4 @@ color: "#D9D9D9",
 
 ".width-size": {
     width: Ti.UI.SIZE,
-}
-
-".lo-horizontal":{
-    layout: "horizontal",
 }
