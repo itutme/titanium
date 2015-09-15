@@ -1,18 +1,16 @@
-function update() {
-    if ($.projectTitleInput.value && $.projectDeadlineInput.value && $.projectTasksInput.value){ // checks if both TextFields has values
-        $.projectTitle.text = $.projectTitleInput.value;
-        $.projectTitleInput.value = '';
-        $.projectDeadline.text = $.projectDeadlineInput.value;
-        $.projectDeadlineInput.value = '';
-        $.projectTasks.text = $.projectTasksInput.value;
-        $.projectTasksInput.value = '';
-    }
-}
+// referance to our collection 'projects'
+var Projects = Alloy.Collections.projects;
 
-function edit(){
-    $.projectTitleInput.value = $.projectTitle.text;
-    $.projectDeadlineInput.value = $.projectDeadline.text;
-    $.projectTasksInput.value = $.projectTasks.text;
-}
+// new model object
+var project = Alloy.createModel('projects', { 
+   name : 'Event Management webapp', 
+   description: 'A cross-platform event management app with tabbed interface.',
+   end_dt: '12/11/2015',
+   assigned_to: 'Lorgh Zulor, Kian Boral, Nona Hurgoh',
+   task_count: 7
+});
+
+Projects.add(project); // Add the project to the collection
+project.save(); // save it to the database
 
 $.index.open();
