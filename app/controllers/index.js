@@ -7,7 +7,8 @@ var project = Alloy.createModel('projects', {
    description: 'A cross-platform event management app with tabbed interface.',
    end_dt: '12/11/2015',
    assigned_to: 'Lorgh Zulor, Kian Boral, Nona Hurgoh',
-   task_count: 7
+   task_count: 7,
+   stage: "open"
 });
 
 Projects.add(project); // Add the project to the collection
