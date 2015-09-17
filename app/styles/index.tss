@@ -66,8 +66,12 @@ color: "#D9D9D9",
     left: 0,
 }
 
+".left-5": {
+    left: 5,
+}
+
 "SearchBar":{
-	barColor: "#EEEEEE",
+    barColor: "#EEEEEE",
     showCancel: false,
     hintText: "search",
     color: "#212121",
@@ -75,21 +79,21 @@ color: "#D9D9D9",
 }
 
 ".mi": {
-	font: {
-	  fontFamily: "Material Icons"
-	}
+    font: {
+      fontFamily: "Material Icons"
+    }
 }
 
 ".lo-horizontal":{
-	layout: "horizontal"
+    layout: "horizontal"
 }
 
 ".height-size":{
-	height: Ti.UI.SIZE
+    height: Ti.UI.SIZE
 }
 
 ".width-fill":{
-	width: Ti.UI.FILL
+    width: Ti.UI.FILL
 }
 
 ".color-highlight":{
