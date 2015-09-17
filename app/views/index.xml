@@ -16,12 +16,11 @@
         <View class="inner-container">
             <Label id="projectTitle" class="left-0 title" text="{name}" />
 	        <Label id="projectTasks" class="left-0 color-secondary content top-5" text="{description}" />
-	        <Label id="projectTasks" class="left-0 color-primary content top-5" text="{assigned_to}" />
             <View class="height-size width-size lo-horizontal right-0 top-10">
-                <Label class="mi info width-size color-light">format_list_bulleted</Label>
-                <Label id="taskCount" class="info width-size color-highlight" text="{task_count}" />
+                <Label class="mi content width-size color-light">group</Label>
+                <Label id="taskCount" class="width-size info left-5 color-highlight" text="{assigned_to}" />
                 <Label class="mi width-size color-light left-10">access_time</Label>
-                <Label id="projectDeadline" class="width-size info color-highlight" text="{end_dt}" />
+                <Label id="projectDeadline" class="width-size info left-5 color-highlight" text="{end_dt}" />
             </View>
     </View>
     </View>
