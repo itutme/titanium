@@ -1,17 +1,22 @@
-// referance to our collection 'projects'
+var moment = require('alloy/moment');
 var Projects = Alloy.Collections.projects;
 
-// new model object
-var project = Alloy.createModel('projects', { 
-   name : 'Event Management webapp', 
-   description: 'A cross-platform event management app with tabbed interface.',
-   end_dt: '12/11/2015',
-   assigned_to: 'Lorgh Zulor, Kian Boral, Nona Hurgoh',
-   task_count: 7,
-   stage: "open"
-});
-
-Projects.add(project); // Add the project to the collection
-project.save(); // save it to the database
+Projects.fetch();
 
 $.index.open();
+
+function filterFunction(collection) {
+   	return collection.where({stage: 'open'});
+   }
+
+function transformFunction(model) {
+    var transform = model.toJSON();
+    var people = transform.assigned_to;
+	transform.end_dt = moment(transform.end_dt).format('ll');
+    transform.assigned_to = people && people.length;
+    return transform;
+}
+
+function refreshTable(e) {
+	Projects.fetch();
+}
