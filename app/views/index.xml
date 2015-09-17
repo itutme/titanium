@@ -9,7 +9,7 @@
         </Items>
     </Toolbar>
     
-    <TableView id="table" filterAttribute="filter" dataCollection="projects" dataFilter="filterFunction" dataTransform="transformFunction" onDragEnd="refreshTable">
+    <TableView id="table" filterAttribute="filter" dataCollection="projects" dataTransform="transformFunction">
         <SearchBar />
     <TableViewRow filter="Event Management webapp">
         <View class="container">
@@ -20,7 +20,9 @@
                 <Label class="mi content width-size color-light">group</Label>
                 <Label id="taskCount" class="width-size info left-5 color-highlight" text="{assigned_to}" />
                 <Label class="mi width-size color-light left-10">access_time</Label>
-                <Label id="projectDeadline" class="width-size info left-5 color-highlight" text="{end_dt}" />
+                <Label id="projectDeadline" class="width-size info left-5 color-highlight" text="{start_dt}" />
+                <Label class="mi width-size color-light left-10">access_time</Label>
+                <Label id="projectDeadline" class="width-size info left-5 color-softred" text="{end_dt}" />
             </View>
     </View>
     </View>
