@@ -1,21 +1,21 @@
 <Alloy>
-	<Collection src="projects"/>
-	<TabGroup>
-		<Tab id="projectTab" title="Projects">
+    <Collection src="projects"/>
+    <TabGroup>
+        <Tab id="projectTab" title="Projects">
             <Window title="Projects">
-            	<TableView id="projectTable" filterAttribute="filter" dataCollection="projects" dataTransform="transformFunction" dataFilter="filterOpen">
-		        	<SearchBar />
-		        	<Require src="projectRow"/>
-		    	</TableView>
+                <TableView id="projectTable" filterAttribute="filter" dataCollection="projects" dataTransform="transformFunction" dataFilter="filterOpen">
+                    <SearchBar />
+                    <Require src="projectRow"/>
+                </TableView>
             </Window>
         </Tab>
         <Tab id="archiveTab" title="Archive">
             <Window title="Archive">
-            	<TableView id="archiveTable" filterAttribute="filter" dataCollection="projects" dataTransform="transformFunction" dataFilter="filterDone">
-		        	<SearchBar />
-		        	<Require src="projectRow"/>
-		    	</TableView>
+                <TableView id="archiveTable" filterAttribute="filter" dataCollection="projects" dataTransform="transformFunction" dataFilter="filterDone">
+                    <SearchBar />
+                    <Require src="projectRow"/>
+                </TableView>
             </Window>
         </Tab>
-	</TabGroup>
+    </TabGroup>
 </Alloy>
