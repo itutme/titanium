@@ -3,7 +3,7 @@
     <TabGroup>
         <Tab id="projectTab" title="Projects">
             <Window title="Projects">
-                <TableView id="projectTable" filterAttribute="filter" dataCollection="projects" dataTransform="transformFunction" dataFilter="filterOpen">
+                <TableView id="projectTable" filterAttribute="filter" dataCollection="projects" dataTransform="transformFunction" dataFilter="filterOpen" onClick="openTasks">
                     <SearchBar />
                     <Require src="projectRow"/>
                 </TableView>
@@ -11,7 +11,7 @@
         </Tab>
         <Tab id="archiveTab" title="Archive">
             <Window title="Archive">
-                <TableView id="archiveTable" filterAttribute="filter" dataCollection="projects" dataTransform="transformFunction" dataFilter="filterDone">
+                <TableView id="archiveTable" filterAttribute="filter" dataCollection="projects" dataTransform="transformFunction" dataFilter="filterDone" onClick="openTasks">
                     <SearchBar />
                     <Require src="projectRow"/>
                 </TableView>

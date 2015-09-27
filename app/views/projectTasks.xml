@@ -1,0 +1,5 @@
+<Alloy>
+    <Window title="Tasks">
+        <Label>List of tasks here.</Label>
+    </Window>
+</Alloy>

@@ -31,3 +31,28 @@ function filterDone(collection) {
         stage : 'done'
     });
 }
+
+function openTasks() {
+    var parentTab = $[$.index.getActiveTab().id];
+    // get the current tab
+    var targetWinController = Alloy.createController('projectTasks');
+
+    // This adds back button to the action bar for android when projectTasks window opens
+    targetWinController.getView().addEventListener('open', function() {
+        if (OS_ANDROID) {
+            // for android actionbar
+            var activity = targetWinController.getView().getActivity();
+            if (activity != undefined && activity.actionBar != undefined) {
+                activity.actionBar.displayHomeAsUp = true;
+            }
+
+            // When clicked on back button it closes the current window.
+            activity.actionBar.onHomeIconItemSelected = function() {
+                targetWinController.getView().close();
+            };
+        }
+    });
+
+    // Opens the new window as a child
+    parentTab.open(targetWinController.getView());
+}
